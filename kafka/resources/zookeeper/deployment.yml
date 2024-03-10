@@ -22,5 +22,7 @@ spec:
               value: '22181'
             - name: ZOOKEEPER_TICK_TIME
               value: '2000'
+            - name: TZ
+              value: 'Europe/Brussels'
           ports:
             - containerPort: 22181
