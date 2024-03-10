@@ -8,6 +8,7 @@ metadata:
 spec:
   destination:
     namespace: kafka-demo
+    server: 'https://kubernetes.default.svc'
   project: default
   source:
     repoURL: https://github.com/mehdikhelif/argocd.git
