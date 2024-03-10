@@ -12,5 +12,5 @@ spec:
   project: default
   source:
     repoURL: https://github.com/mehdikhelif/argocd.git
-    path: deployment.yml/resources
+    path: kafka/resources
     targetRevision: main
