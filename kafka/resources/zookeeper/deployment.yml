@@ -19,7 +19,7 @@ spec:
           image: confluentinc/cp-zookeeper:7.4.4
           env:
             - name: ZOOKEEPER_CLIENT_PORT
-              value: '2181'
+              value: '22181'
             - name: ZOOKEEPER_TICK_TIME
               value: '2000'
           ports:
