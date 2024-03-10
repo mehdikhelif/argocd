@@ -2,12 +2,12 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: kafka-demo
-  namespace: deployment.yml-demo
+  namespace: kafka-demo
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: deployment.yml-demo
+    namespace: kafka-demo
   project: default
   source:
     repoURL: https://github.com/mehdikhelif/argocd.git
